@@ -1,7 +1,5 @@
 - [工程汇报](docs/rea-learning/01-stage-report-20261029.md)
 - [教程主页](docs/tutorials/README.md)
-
-- **REA 教程**
   - [教程目录](docs/tutorials/rea/README.md)
   - [第 0 章 开始之前](docs/tutorials/rea/00-开始之前.md)
   - [第 1 章 认识 REA](docs/tutorials/rea/01-认识REA.md)
