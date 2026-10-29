@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>REA 反编译工程与教程</title>
+  <meta name="description" content="REA 反编译工程阶段汇报与 REA 新手教程">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- docsify 4.13.1 (MIT) 与 docsify-copy-code 2.1.1 (MIT)，已本地化到 assets/docsify/ -->
+  <link rel="stylesheet" href="assets/docsify/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #42b883;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    .sidebar {
+      width: 300px;
+    }
+
+    .sidebar .app-name-link {
+      font-weight: 700;
+    }
+
+    .markdown-section {
+      max-width: 920px;
+      padding: 30px 40px;
+    }
+
+    .markdown-section h1 {
+      font-size: 2rem;
+    }
+
+    .markdown-section h2 {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3em;
+    }
+
+    .markdown-section blockquote {
+      border-left: 4px solid #42b883;
+      background: #f6fbf8;
+      color: #555;
+      padding: 10px 16px;
+    }
+
+    .markdown-section code {
+      background: #f4f6f8;
+    }
+
+    .markdown-section pre > code {
+      background: #282c34;
+    }
+
+    .page-footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      color: #999;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      .markdown-section {
+        padding: 20px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    window.$docsify = {
+      name: 'REA 反编译工程与教程',
+      repo: 'sing173/rea-tutorial',
+      homepage: 'docs/rea-learning/01-stage-report-20261029.md',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      maxLevel: 3,
+      mergeNavbar: true,
+      externalLinkTarget: '_blank',
+      notFoundPage: true,
+      search: {
+        placeholder: '搜索教程',
+        noData: '没有找到结果',
+        paths: 'auto',
+        depth: 3
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '复制失败',
+        successText: '已复制'
+      },
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            var section = document.querySelector('.markdown-section');
+            if (!section || section.querySelector('.page-footer')) return;
+            var footer = document.createElement('div');
+            footer.className = 'page-footer';
+            footer.innerHTML = '基于 <a href="https://github.com/morluto/rea" target="_blank">REA</a> 6.8.0 · ' +
+              '<a href="https://github.com/sing173/rea-tutorial" target="_blank">GitHub 仓库</a>';
+            section.appendChild(footer);
+          });
+        }
+      ]
+    };
+  </script>
+
+  <script src="assets/docsify/docsify.min.js"></script>
+  <script src="assets/docsify/plugins/search.min.js"></script>
+  <script src="assets/docsify/plugins/docsify-copy-code.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+- [工程汇报](docs/rea-learning/01-stage-report-20261029.md)
+- [教程主页](docs/tutorials/README.md)
+
+- **REA 教程**
+  - [教程目录](docs/tutorials/rea/README.md)
+  - [第 0 章 开始之前](docs/tutorials/rea/00-开始之前.md)
+  - [第 1 章 认识 REA](docs/tutorials/rea/01-认识REA.md)
+  - [第 2 章 安装、注册与就绪检查](docs/tutorials/rea/02-安装注册与就绪检查.md)
+  - [第 3 章 文件画像](docs/tutorials/rea/03-文件画像.md)
+  - [第 4 章 函数级分析](docs/tutorials/rea/04-函数级分析.md)
+  - [第 5 章 运行时观察：进程捕获](docs/tutorials/rea/05-运行时观察-进程捕获.md)
+  - [第 6 章 JS/Electron 与网站目标](docs/tutorials/rea/06-JS与Electron与网站目标.md)
+  - [第 7 章 MCP 与 Agent 集成](docs/tutorials/rea/07-MCP与Agent集成.md)
+  - [第 8 章 Evidence、比较与报告](docs/tutorials/rea/08-Evidence比较与报告.md)
+  - [第 9 章 Agent Environments](docs/tutorials/rea/09-AgentEnvironments.md)
+  - [第 10 章 综合实战：WeKnora Lite](docs/tutorials/rea/10-综合实战-WeKnoraLite桌面端.md)
+  - [第 11 章 常见坑与检查表](docs/tutorials/rea/11-常见坑与检查表.md)
+
+- **附录**
+  - [附录 A 命令速查](docs/tutorials/rea/附录A-命令速查.md)
+  - [附录 B 术语表](docs/tutorials/rea/附录B-术语表.md)
+  - [附录 C 配套 wiki 与原始文档](docs/tutorials/rea/附录C-配套wiki与原始文档.md)
+  - [附录 D 模板](docs/tutorials/rea/附录D-模板.md)
